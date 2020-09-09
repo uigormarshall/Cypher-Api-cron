@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Monitorados",
+  "info": {
+    "name": "Monitorados"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true,
+      "minLength": 8,
+      "unique": true
+    },
+    "Status": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    }
+  }
+}
