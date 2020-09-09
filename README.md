@@ -1,3 +1,3 @@
-# Strapi application
+# Cypher Cron API
 
-A quick description of your strapi application
+Api used to monitor urls, in order to obtain statusCode information.
